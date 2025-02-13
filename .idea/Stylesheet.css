@@ -1,0 +1,74 @@
+html {
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    scrollbar: none;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border-radius: 10%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    width: 50vh;
+}
+
+#uwu{
+    margin-top: 3vh;
+}
+
+h2, button{
+    text-align: center;
+    font-size: 5vh;
+    background: none;
+    border: none;
+}
+
+.odpowiedz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.odpowiedz :hover{
+    cursor: pointer;
+    color: #520042;
+    opacity: 0.8;
+}
+
+.dancing {
+    display: none;
+    Z-index: 1000;
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.button{
+    background-color: rgba(245, 152, 193, 0.5);
+    border-radius: 10%;
+}
+
+.button.background-color{
+    opacity: 0.5;
+}
+
+
+
+
+
